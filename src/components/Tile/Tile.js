@@ -8,7 +8,7 @@ const Tile = (props) => {
 
   return (
     <div className='Tile' style={colour}>
-      {(props.selected || props.matched) ? <svg /> : null}
+      {(props.selected || props.matched) ? <props.svg /> : null}
     </div>
   )
 }
